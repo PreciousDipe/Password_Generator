@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="state">
+            <h1><span style="color: #ffff;">Generate a</span><br><span style="color: #10B981;">random password</span></h1>
+            <p id="text">Never use an insecure password again.</p>
+            <div class="generate">
+                <button class="password" onclick="generatePassword()">Generate Password</button>
+                <input type="number" id="length" min="15" max="50" value="15">
+            </div>
+            <p class="line"></p>
+            <div class="display">
+                <p id="suggest1"></p>
+                <p id="suggest2"></p>
+            </div>
+            <div class="labels">
+                <label>
+                    <input type="checkbox" id="Numbers">Add Numbers
+                    <span class="slider">
+                    </span>
+                </label>
+                <label>
+                    <input type="checkbox" id="Symbols">Add Symbols
+                    <span class="slider">
+                    </span>
+                </label>
+            </div>
+            
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
