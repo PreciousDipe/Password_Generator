@@ -99,6 +99,10 @@ h1 {
    
 }
 
+#Numbers, #Symbols {
+    color: #fff;
+}
+
 .labels {
     display: flex;
     flex-wrap: wrap;
