@@ -99,16 +99,13 @@ h1 {
    
 }
 
-#Numbers, #Symbols {
-    color: #fff;
-}
-
 .labels {
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
     gap: 30px;
     margin: 5px 0;
+    color: #fff;
 }
 
 label {
