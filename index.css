@@ -14,7 +14,6 @@ body {
 .state {
     background-color: #1F2937;
     width: 60%;
-    height: 65%;
     margin: 20px auto;
     padding: 58px;
     border-radius: 5px;
@@ -181,5 +180,10 @@ input[type="checkbox"] {
     .password, #length {
         width: 100%;
         margin: 5px 0;
+    }
+    .state {
+        height: 40vh;
+        min-height: 45vh;
+        max-height: 50vh;
     }
 }
