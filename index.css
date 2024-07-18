@@ -63,6 +63,7 @@ h1 {
     width: 100px;
     height: 42px;
     padding: 9px 15px;
+    border: none;
     border-radius: 10px;
     background-color: #D5D4D8;
     color: #1F2937;
@@ -88,10 +89,9 @@ h1 {
     background: #273549;
     font-size: 1rem;
     font-weight: 500;
-    line-height: 39px;
     text-align: center;
     color: #10B981;
-    padding: 10px;
+    padding: 20px;
     word-wrap: break-word; 
     word-break: break-all;
     overflow-wrap: break-word;
